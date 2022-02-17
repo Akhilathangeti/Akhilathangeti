@@ -1,0 +1,28 @@
+- 👋 Hi, I’m @Akhilathangeti
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Akhilathangeti/Akhilathangeti is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+#include <stdio.h>
+ 
+void main()
+{
+    int i, num, odd_sum = 0, even_sum = 0;
+ 
+    printf("Enter the value of num\n");
+    scanf("%d", &num);
+    for (i = 1; i <= num; i++)
+    {
+        if (i % 2 == 0)
+            even_sum = even_sum + i;
+        else
+            odd_sum = odd_sum + i;
+    }
+    printf("Sum of all odd numbers  = %d\n", odd_sum);
+    printf("Sum of all even numbers = %d\n", even_sum);
+}
